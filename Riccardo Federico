@@ -1,0 +1,15 @@
+# FantaRicky PHP Site
+
+Un semplice sito PHP per esercitazione e portfolio.
+
+## Come usarlo in locale
+
+1. Copiare i file nella cartella `C:\xampp\htdocs\fantaricky`
+2. Avviare Apache da XAMPP
+3. Visitare `http://localhost/fantaricky`
+
+## Funzionalità
+
+- CRUD PHP base
+- Responsive con media query
+- Collegamento a database MySQL
