@@ -1,0 +1,185 @@
+/*
+Theme Name: Mio Tema Importato
+Theme URI: http://esempio.com/mio-tema-importato
+Author: Il Tuo Nome
+Author URI: http://esempio.com
+Description: Tema personalizzato importato, progettato per WordPress.
+Version: 1.0
+License: GPLv2
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: mio-tema-importato
+Tags: Tema, Blog, WordPress, Personalizzato
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo della pagina */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Sezione di benvenuto */
+.welcome-section {
+    margin: 0;
+    padding: 50px 0;
+    text-align: center;
+    background: linear-gradient(135deg, #1a237e 0%, #0066cc 100%);
+    color: white;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    transform: skewY(-2deg);
+    margin-bottom: 100px;
+}
+
+.welcome-section > * {
+    transform: skewY(2deg);
+}
+
+/* Header */
+header {
+    background-color: #1a237e;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Contenitore principale */
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Layout delle card per i post */
+.container .post {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px 10px 10px 50px;
+    padding: 25px;
+    width: 350px;
+    display: inline-block;
+    vertical-align: top;
+    transition: transform 0.2s ease-in-out;
+}
+
+.container .post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.container .post img {
+    max-height: 200px;
+    width: auto;
+    object-fit: contain;
+}
+
+/* Container per le card */
+.container {
+    text-align: center;
+}
+
+/* Stile per il modulo di contatto */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.container .post h2 {
+    font-size: 1.8em;
+    color: #0066cc;
+}
+
+.container .post p {
+    font-size: 1em;
+    color: #555;
+}
+
+.container .post a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.container .post a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #1a237e;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Stile per i link */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Stile per le immagini */
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Stile specifico per l'immagine in about.me */
+.about-me-img {
+    max-height: none;
+    height: 400px;
+    width: auto;
+    object-fit: contain;
+    object-position: center;
+}
+
+/* Responsività per schermi più piccoli */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .container .post {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+}
