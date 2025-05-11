@@ -1,0 +1,26 @@
+# File di configurazione del database
+database.php
+config.php
+
+# File di ambiente
+.env
+
+# Cartelle temporanee e di sistema
+.vscode/
+.vs/
+
+# Dipendenze Composer
+vendor/
+composer.lock
+
+# File generati dal sistema
+*.log
+*.tmp
+
+# File di backup
+*.bak
+*.old
+
+# File di sviluppo locale
+.DS_Store
+Thumbs.db
